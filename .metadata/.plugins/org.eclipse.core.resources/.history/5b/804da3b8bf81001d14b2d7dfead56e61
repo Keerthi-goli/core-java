@@ -1,0 +1,16 @@
+package com.techouts.programs;
+import java.util.*;  
+
+public class Demo1 {
+
+	public static void main(String[] args) {
+
+		project d=new project();
+		Scanner s=new Scanner(System.in);
+		System.out.println("enter n :");
+		int a=s.nextInt();
+		//d.primeNumbers(a);
+		System.out.println(d.input(a));
+	}
+
+}

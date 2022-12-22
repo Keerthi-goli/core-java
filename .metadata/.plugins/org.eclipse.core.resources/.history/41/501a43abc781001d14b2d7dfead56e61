@@ -1,0 +1,49 @@
+package com.techouts.programs;
+import java.util.*;  
+
+public class Demo1 {
+
+	public static void main(String[] args) {
+
+		project d=new project();
+		Scanner s=new Scanner(System.in);
+		System.out.println("enter n :");
+		int a=s.nextInt();
+		d.primeNumbers(a);
+		int c=d.input(a);
+		if(c>0) {
+			System.out.println(c + "Th rank");
+		}
+		else {
+			System.out.println("Incorrect input");
+		}
+		if(s.hasNextInt()) {
+			d.multiples(s.nextInt());
+			
+		}
+		else {
+			System.out.println("0");
+		}
+		/*int[] arr=new int[5];
+		arr[0]=12345;
+		arr[1]=35677;
+		arr[2]=57777;
+		arr[4]=69994;
+		arr[3]=58999;
+		int c=s.nextInt();
+		int y=0;
+		for(int i=0;i<arr.length;i++) {
+			if(arr[i]==c) {
+				System.out.println("user id already exits");
+				y=1;
+			}
+		}
+		if(y==1) {
+			String password=s.nextLine();
+			for(int i=0;i<password.length();i++) {
+				if((int)password[i])
+			}*/
+		}
+	}
+
+}

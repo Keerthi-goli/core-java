@@ -1,0 +1,8 @@
+package com.techouts.programs;
+
+public class project {
+	public void helloWorld() {
+		System.out.println("hiiii");
+	}
+
+}

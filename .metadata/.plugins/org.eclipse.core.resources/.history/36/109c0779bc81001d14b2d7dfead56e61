@@ -1,0 +1,13 @@
+package com.techouts.programs;
+
+public class Demo1 {
+
+	public static void main(String[] args) {
+
+		System.out.println("Hello world");
+		project d=new project();
+		d.helloWorld();
+		
+	}
+
+}

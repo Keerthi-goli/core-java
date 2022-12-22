@@ -1,0 +1,29 @@
+package com.techouts.programs;
+import java.util.*;  
+public class project {
+	int m=0;
+	public void helloWorld() {
+		System.out.println("hiiii");
+	}
+	public boolean prime(int c) {
+		for(int i=2;i<c;i++) {
+			if(c%i==0) {
+				return false;
+			}
+		}
+		return true;
+	}
+	public void primeNumbers(int d) {
+		for(int i=2;i<d+1;i++) {
+			if(prime(i)) {
+				if(m<i) {
+					m=i;
+				}
+			}
+			
+			
+		}
+		System.out.println(m);
+	}
+
+}
